@@ -1,0 +1,28 @@
+//
+//  main.cpp
+//  19
+//
+//  Created by Крупнов Дорофей on 19.02.2021.
+//
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+    int N;
+    cin>>N;
+    cout<<"\n";
+    int v = 0;
+    if(N>=1 and N<=9) {
+        for(int i = 1; i<=N; i++) {
+            v = 1;
+            while (v<=i) {
+                cout<<v<<" ";
+                v++;
+            }
+            cout<<"\n";
+        }
+    } else cout<<"N is wrong: "<<N;
+    return 0;
+}

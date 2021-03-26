@@ -1,0 +1,54 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+class Array{
+private:
+    int n;
+    int* a;
+public:
+    Array() {
+        cout<<"Enter amount of elements: ";
+        cin>>n;
+        a = Initialization();
+        EnterArray();
+        Inversion();
+        EnterArray();
+        
+    }
+    
+    int* Initialization() {
+        assert(n>0);
+        int *b = new int(n);
+        for(int i = 0; i<n; i++) {
+            cin>>b[i];
+        }
+        return b;
+    }
+    
+    void EnterArray() {
+        cout<<"N = ";
+        for(int i = 0; i<n; i++) {
+            cout<<a[i]<<" ";
+        }
+        cout<<"\n";
+    }
+    
+    void Inversion() {
+        int g = n-1, v = n/2;
+        for(int i = 0; i<v; i++) {
+            int f = a[i];
+            a[i]=a[g];
+            a[g] = f;
+            g--;
+        }
+    }
+    
+    
+    
+protected:
+    
+};
+
+int main() {
+    Array a;
+}

@@ -3,7 +3,7 @@
 //  HomeWork#3
 //
 //  Created by LittleDevo4ka on 27.09.2020.
-//  Copyright © 2020 Крупнов Дорофей. All rights reserved.
+//  Copyright © 2020 LittleDevo4ka. All rights reserved.
 //
 
 #include <iostream>

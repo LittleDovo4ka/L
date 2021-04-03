@@ -3,7 +3,7 @@
 //  Experement 1.2
 //
 //  Created by LittleDevo4ka on 06.09.2020.
-//  Copyright © 2020 Крупнов Дорофей. All rights reserved.
+//  Copyright © 2020 LittleDevo4ka. All rights reserved.
 //
 //Homework 2
 #include <iostream>

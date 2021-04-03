@@ -2,7 +2,7 @@
 //  main.cpp
 //  HomeWork#2
 //
-//  Created by Крупнов Дорофей on 16.10.2020.
+//  Created by LittleDevo4ka on 16.10.2020.
 //
 
 #include <iostream>

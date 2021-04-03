@@ -2,7 +2,7 @@
 //  main.cpp
 //  Experement 1.2
 //
-//  Created by Крупнов Дорофей on 06.09.2020.
+//  Created by LittleDevo4ka on 06.09.2020.
 //  Copyright © 2020 Крупнов Дорофей. All rights reserved.
 //
 //Homework 2
